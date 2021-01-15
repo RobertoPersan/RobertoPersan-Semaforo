@@ -16,7 +16,7 @@
 
 h1 {
     font-family: 'Courier New', Courier, monospace;
-    
+    margin-left: 30px;
 }
 
 button {
@@ -27,6 +27,8 @@ button {
     transition: all .5s;
     cursor: pointer;
     border-radius: 25px;
+    margin-top: 20px;
+    margin-left: 30px;
 }
 
 button:hover {
