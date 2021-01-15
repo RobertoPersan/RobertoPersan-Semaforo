@@ -1,3 +1,5 @@
+// Funções do cronometro
+
 "use strict"
 
 var mm = 0;

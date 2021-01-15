@@ -1,3 +1,4 @@
+//Função para os Botoes de testes do semaforo
 
 function verde() {
     document.getElementById("semaf").src="verde.png";
