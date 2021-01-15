@@ -15,12 +15,15 @@
         <input type="button" value=" APAGADO " onclick="apag()">
     </form>
     <script src="index.js"></script>
-
-    <div class="max-wideth">
-        <button onclick="start();" class="bg-green">Iniciar</button>
-        <button onclick="pause();" class="bg-yellow>">Pausar</button>
-        <button onclick="stop();" class="bg-red">Parar</button>
-        <h1 id="counter">00:00</h1>
-    </div>
+    
+    <section>
+        <div class="max-wideth">
+            <button onclick="start();" class="bg-green">Iniciar</button>
+            <button onclick="pause();" class="bg-yellow>">Pausar</button>
+            <button onclick="stop();" class="bg-red">Parar</button>
+            <h1 id="counter">00:00:00</h1>
+        </div>
+        <script src="cron.js"></script>
+    </section>
 </body>
 </html>
