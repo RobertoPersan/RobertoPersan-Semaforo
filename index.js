@@ -37,6 +37,8 @@ function stop() {
     clearInterval(cron)
     mm = 0;
     ss = 0;
+
+    document.getElementById('counter').innerText ='00:00';
 }
 
 
@@ -48,6 +50,6 @@ function timer() {
         mm++;
     }
 
-    let format = mm + ':' + (mm < 10 ? '0' + mm : mm) + ':' + (ss , 10 ? '0' + ss : ss);
+    var format = mm + ':' + (mm < 10 ? '0' + mm : mm) + ':' + (ss , 10 ? '0' + ss : ss);
     document.getElementById('counter').immerText = format;
 }
