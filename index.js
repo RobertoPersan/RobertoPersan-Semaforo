@@ -5,7 +5,7 @@ function verde() {
 }
 
 function amarelo() {
-    document.getElementById("semaf").src="amarelo.png";
+    document.getElementById("semaf").src="amarelo2.png";
 }
 
 function vermelho() {
@@ -21,7 +21,7 @@ function pisca() {
     var contador = 0;
     while (contador < 10) {
         intervalo += 500;
-        setTimeout("document.getElementById('semaf').src='amarelo.png';",intervalo);
+        setTimeout("document.getElementById('semaf').src='amarelo2.png';",intervalo);
         intervalo += 500;
         setTimeout("document.getElementById('semaf').src='apagado.png';",intervalo);
         contador++;
