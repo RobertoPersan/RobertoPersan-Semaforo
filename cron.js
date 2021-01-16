@@ -47,10 +47,10 @@ function timer() {
     if (mm < 10){
         document.getElementById("semaf").src="verde.png";
     }
-    if (mm == 10 && mm < 13){
+    if (mm == 10 && mm < 15){
         document.getElementById("semaf").src="amarelo.png";
     }
-    if (mm == 13 && mm < 28){
+    if (mm == 15 && mm < 28){
         document.getElementById("semaf").src="vermelho.png";
     }
 }

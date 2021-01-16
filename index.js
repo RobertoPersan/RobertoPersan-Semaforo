@@ -15,3 +15,15 @@ function vermelho() {
 function apag() {
     document.getElementById("semaf").src="apagado.png";
 }
+
+function pisca() {
+    var intervalo = 0;
+    var contador = 0;
+    while (contador < 10) {
+        intervalo += 500;
+        setTimeout("document.getElementById('semaf').src='amarelo.png';",intervalo);
+        intervalo += 500;
+        setTimeout("document.getElementById('semaf').src='apagado.png';",intervalo);
+        contador++;
+    }
+}
